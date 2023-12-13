@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "press start 2p", cursive;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("/imagens/wall.png");
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #f4de62;
+}
+
+.painel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #000000;
+    background-color: aqua;
+}
+
+.inimigo {
+    background-image: url("/imagens/ralph.png");
+    background-size: cover;
+    
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-score{
+    margin-top: 5px;
+}
